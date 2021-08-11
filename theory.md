@@ -40,3 +40,18 @@ binariniai failai:
 -fonts
 
 MIME tas pats failo tipas tik su extra papildymais...
+
+// css/base/main.css -> [css.base/main, css]
+// css/base/main.min.css -> [css.base/main, min, css]
+
+        //bus isspauzdinta, jei tipas nebus teisingas ir bus nurodytas paprastu(plain) tekstu
+        res.writeHead(404, {
+            'Content-Type': 'text/plain',
+        })
+
+        return res.end('Content/file not found');
+    })
+
+      // server.httpServer.on('listening', () => {
+    //     console.log('### kazkas pradejo klausytis');
+    // })
