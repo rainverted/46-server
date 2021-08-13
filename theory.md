@@ -58,3 +58,8 @@ MIME tas pats failo tipas tik su extra papildymais...
 
 
     'Cache-Control': 'max-age=15', laikas nurodytas sekundemis
+
+jei pasileisti "dev" versiją:
+node .
+jei pasileisti "production" versiją:
+NODE_ENV = production node .
