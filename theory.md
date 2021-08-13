@@ -55,3 +55,6 @@ MIME tas pats failo tipas tik su extra papildymais...
       // server.httpServer.on('listening', () => {
     //     console.log('### kazkas pradejo klausytis');
     // })
+
+
+    'Cache-Control': 'max-age=15', laikas nurodytas sekundemis
