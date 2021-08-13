@@ -16,3 +16,4 @@ const currentEnv = typeof process.env.NODE_ENV === 'string' ? process.env.NODE_E
 const exportableEnvName = typeof environments[currentEnv] === 'object' ? currentEnv : 'dev';
 
 module.exports = environments[exportableEnvName];
+
