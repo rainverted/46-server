@@ -1,4 +1,6 @@
-I dalis - serverio kurimas:
+Video pamoka: https://www.youtube.com/watch?v=LLA_61RbPXY&list=PLcLHBZr0jPAC5d8qT3Axq30YPnXTfkjhQ&index=146
+
+Serverio kurimas:
 
 1.index.js - logika kaip paleisti projekta pries pajungiant serveri(server.js)
 2.config.js - serverio naudojimo daznumas/daznis
