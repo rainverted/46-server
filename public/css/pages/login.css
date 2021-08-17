@@ -11,3 +11,8 @@
 @import '../components/footer.css';
 
 /* CUSTOM STYLE BELOW THIS COMMENT LINE */
+.center-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

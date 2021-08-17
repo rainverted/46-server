@@ -10,3 +10,22 @@
 @import '../components/footer.css';
 
 /* CUSTOM STYLE BELOW THIS COMMENT LINE */
+main {
+  display: flex;
+  padding: 80px;
+  justify-content: center;
+  align-items: center;
+}
+main > h1 {
+  font-size: 100px;
+  text-align: center;
+}
+
+@media (max-width: 600px) {
+  main > h1 {
+    font-size: 60px;
+  }
+  main > h1 > span {
+    display: none;
+  }
+}
