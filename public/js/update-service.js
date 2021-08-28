@@ -12,6 +12,10 @@ const priceDOM = document.getElementById('price');
 const isActiveDOM = document.getElementById('is_active');
 const submitDOM = document.querySelector('button');
 
+
+
+
+
 function showMessage(state, msg) {
     const allowedStates = ['info', 'success', 'error'];
     if (allowedStates.includes(state)) {
@@ -34,6 +38,7 @@ function submitFormInfo(e) {
     const fullDescription = fullDescriptionDOM.value;
     const price = priceDOM.value;
     const isActive = isActiveDOM.checked;
+
 
     if (isActive) {
         if (serviceName === '') {
@@ -66,7 +71,7 @@ function submitFormInfo(e) {
     }
     closeMessage();
     ajax({
-        method: 'POST',
+        method: 'PUT',
         headers: {},
         endpoint: 'api/services',
         data: { serviceName, urlSlug, shortDescription, fullDescription, price, isActive }
@@ -96,4 +101,3 @@ submitDOM.addEventListener('click', submitFormInfo);
 
 // showMessage('info', 'Labas');
 // showMessage('success', 'Tau pavyko!');
-// showMessage('error', 'Kazkur yra klaida!');
