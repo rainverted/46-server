@@ -1,4 +1,5 @@
 .data
+node_modules
 // *.css nerodo jokiu css failu visame projekte
 // .data/*.js nerodo jokiu js failu .data folderyje
 // */*.css 
