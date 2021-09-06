@@ -1,6 +1,3 @@
-const server = require('./lib/server');
-
-
 const mysql = require('mysql2/promise');
 const server = require('./lib/server');
 
